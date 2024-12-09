@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if the data you're trying to access is not available yet, especially when dealing with asynchronous operations.  For instance, if you try to access a value from a database query before the query has completed, you'll get an error indicating the value is undefined or null.
